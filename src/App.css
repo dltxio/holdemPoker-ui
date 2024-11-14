@@ -1,0 +1,14 @@
+#kt_app_sidebar_menu.menu-column {
+  height: calc(100vh - 90px);
+}
+
+.dashboard-ref-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 15px;
+}
+
+.dashboard-ref-link button {
+  margin-left: 30px;
+}

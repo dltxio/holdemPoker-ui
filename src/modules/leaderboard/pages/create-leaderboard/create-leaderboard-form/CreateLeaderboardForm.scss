@@ -1,0 +1,24 @@
+.create-leaderboard-form-content {
+  margin-top: 10px;
+  form {
+    .form-buttons {
+      padding: 20px 0;
+      border-top: 1px solid #e7ecf1;
+      button {
+        &:first-child {
+          margin-right: 15px;
+        }
+      }
+      .btn-center{
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .ant-input-number{
+      width: 100%;
+    }
+    .form-message{
+      color: #333;
+    }
+  }
+}

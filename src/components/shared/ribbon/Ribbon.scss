@@ -1,0 +1,53 @@
+.ribbon-content {
+  &.primary {
+    .ribbon-label {
+      background: var(--primary);
+    }
+  }
+  &.danger {
+    .ribbon-label {
+      background: var(--danger);
+    }
+  }
+  &.info {
+    .ribbon-label {
+      background: var(--info);
+    }
+  }
+  &.warning {
+    .ribbon-label {
+      background: var(--warning);
+      color: #000 !important;
+    }
+  }
+  &.secondary {
+    .ribbon-label {
+      background: var(--secondary);
+    }
+  }
+  margin-bottom: 30px;
+  .card {
+    background: #e9edef;
+    .card-header {
+      border-bottom: none;
+      padding: 0;
+      .ribbon-label {
+        color: #fff;
+        box-shadow: 2px 2px 7px rgb(0 0 0 / 40%);
+        padding: 0.5em 1em;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 14px;
+        border-radius: 0;
+      }
+    }
+    .card-body {
+      padding: 2rem;
+      p {
+        margin: 0;
+        font-size: 25px;
+        font-weight: bold;
+      }
+    }
+  }
+}

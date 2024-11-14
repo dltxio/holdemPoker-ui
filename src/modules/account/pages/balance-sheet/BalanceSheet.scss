@@ -1,0 +1,19 @@
+.balance-sheet-content {
+  &__actions {
+    display: flex;
+    align-items: center;
+    &__datetime {
+      .ant-picker {
+        width: 240px;
+      }
+    }
+    &__btns {
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+      .button-content {
+        margin: 0 3px;
+      }
+    }
+  }
+}

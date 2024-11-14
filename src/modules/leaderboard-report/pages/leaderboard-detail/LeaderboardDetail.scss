@@ -1,0 +1,74 @@
+.leaderboard-detail {
+    &__container {
+        padding: 12px 20px 15px;
+        background-color: #fff;
+
+        .portlet-title {
+            padding: 0;
+            min-height: 48px;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 10px;
+
+            &__caption {
+                color: #666;
+                padding: 10px 0;
+                display: inline-block;
+                font-size: 18px;
+                line-height: 18px;
+
+                .font-green {
+                    color: #32c5d2;
+
+                }
+
+                .caption-subject {
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    padding-left: 0.5rem;
+                }
+            }
+
+            &__content {
+                .row {
+                    padding: 10px 0px 15px 0px;
+
+                    .item {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+
+                        &__title {
+                            font-size: 14px;
+                            color: #333;
+                            font-weight: bold;
+                        }
+
+                        &__value {
+                            font-size: 14px;
+                            color: #333;
+                        }
+                    }
+                    .item-tables{
+                        padding-left: 25px;
+                    }
+                }
+
+            }
+
+            &__table {
+                .body-row {
+                    background-color: rgb(145 172 238) !important;
+                    td {
+                        --bs-table-accent-bg: rgb(145 172 238);
+                        border: 1px solid #e7ecf1;
+                        padding: 8px;
+                        line-height: 1.42857;
+                        vertical-align: top;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.rakeback-player-report-content {
+  &__wrapper {
+    background: #fff;
+    border: 1px solid var(--info);
+    padding: 15px;
+    margin-top: -1px;
+  }
+  &__filter {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    label {
+      font-size: 18px;
+      margin: 10px 0;
+      line-height: 1.1;
+    }
+  }
+  &__buttons {
+    display: flex;
+    align-items: center;
+    .button-content {
+      margin: 0 2px;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+  &__note {
+    margin-top: 20px;
+    .alert {
+      background: #a7e6ec;
+    }
+  }
+  &__table {
+    margin-top: 30px;
+  }
+  &__pagination {
+    margin-top: 20px;
+  }
+}

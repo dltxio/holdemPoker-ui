@@ -1,0 +1,9 @@
+.un-authtenticated-layout {
+  height: 100vh;
+}
+
+.un-authtenticated-layout .ant-layout-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

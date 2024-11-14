@@ -1,0 +1,47 @@
+.promotion-content {
+    &__wrapper {
+        background: #fff;
+        border: 1px solid var(--info);
+
+        &.default {
+            padding-top: 15px;
+        }
+
+        &.secondary {
+            background: #fff;
+            border: 1px solid var(--info);
+            margin-top: -1px;
+        }
+
+        form {
+            padding-top: 15px;
+            padding-left: 15px;
+
+            .ant-input-number {
+                width: 100%;
+            }
+
+            .form-buttons {
+                display: flex;
+                justify-content: center;
+
+                button {
+                    &:first-child {
+                        margin-right: 5px;
+                    }
+                }
+            }
+
+
+        }
+
+        .table-content {
+            margin: 10px 10px 30px 15px;
+            .ant-pagination{
+                display: none;
+            }
+        }
+    }
+
+
+}

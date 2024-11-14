@@ -1,0 +1,28 @@
+.bonus-transfer-content {
+    &__wrapper {
+      background: #fff;
+      padding: 12px 20px 15px;
+    }
+    &__form {
+      form {
+        .form-item {
+          &__multiple {
+            button {
+              padding: 7px 12px;
+              margin-left: -1px;
+            }
+          }
+        }
+        .form-buttons {
+          padding: 20px 0;
+          border-top: 1px solid #e7ecf1;
+          button {
+            &:first-child {
+              margin-right: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  

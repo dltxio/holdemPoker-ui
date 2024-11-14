@@ -1,0 +1,30 @@
+form {
+    .form-item {
+        padding-top: 20px;
+        &__multiple {
+            button {
+                padding: 7px 12px;
+                margin-left: -1px;
+            }
+        }
+
+        .ant-input-number {
+            width: 100%;
+        }
+    }
+
+    .form-buttons {
+        padding: 20px 0;
+        border-top: 1px solid #e7ecf1;
+        display: flex;
+        justify-content: center;
+
+        button {
+            &:first-child {
+                margin-right: 15px;
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,43 @@
+.broadcast-content {
+    &__wrapper {
+        background: #fff;
+        &.default {
+            padding-top: 15px;
+          }
+      
+          &.secondary {
+            background: #fff;
+            border: 1px solid var(--info);
+            margin-top: -1px;
+          }
+    }
+
+    &__form {
+        form {
+            .form-item {
+                &__multiple {
+                    button {
+                        padding: 7px 12px;
+                        margin-left: -1px;
+                    }
+                }
+                .ant-input-number {
+                    width: 100%;
+                }
+            }
+
+            .form-buttons {
+                padding: 20px 0;
+                border-top: 1px solid #e7ecf1;
+
+                button {
+                    &:first-child {
+                        margin-right: 15px;
+                    }
+                }
+            }
+
+            
+        }
+    }
+}

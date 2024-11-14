@@ -1,0 +1,129 @@
+.button-content {
+  button {
+    height: auto;
+    padding: 5px 10px;
+    line-height: 1.5;
+    font-size: 12px !important;
+    i {
+      margin-right: 5px;
+      font-size: 12px !important;
+    }
+    span {
+      font-size: 12px !important;
+    }
+    &.rounded {
+      border-radius: 25px !important;
+    }
+    &.primary {
+      border: 1px solid var(--primary);
+      span,
+      i {
+        color: var(--primary);
+      }
+      &:hover {
+        border: 1px solid var(--primary) !important;
+        background: var(--primary) !important;
+        span,
+        i {
+          color: #fff;
+        }
+      }
+    }
+    &.danger {
+      border: 1px solid var(--danger);
+      span,
+      i {
+        color: var(--danger);
+      }
+      &:hover {
+        border: 1px solid var(--danger) !important;
+        background: var(--danger) !important;
+        span,
+        i {
+          color: #fff;
+        }
+      }
+    }
+    &.info {
+      border: 1px solid var(--info);
+      span,
+      i {
+        color: var(--info);
+      }
+      &:hover {
+        border: 1px solid var(--info) !important;
+        background: var(--info) !important;
+        span,
+        i {
+          color: #fff;
+        }
+      }
+    }
+    &.warning {
+      border: 1px solid var(--warning);
+      span,
+      i {
+        color: var(--warning);
+      }
+      &:hover {
+        border: 1px solid var(--warning) !important;
+        background: var(--warning) !important;
+        span,
+        i {
+          color: #fff;
+        }
+      }
+    }
+    &.secondary {
+      border: 1px solid var(--secondary);
+      span,
+      i {
+        color: var(--secondary);
+      }
+      &:hover {
+        border: 1px solid var(--secondary) !important;
+        background: var(--secondary) !important;
+        span,
+        i {
+          color: #fff;
+        }
+      }
+    }
+    &.solid {
+      span,
+      i {
+        color: #fff;
+      }
+      &.primary {
+        background: var(--primary);
+        &:hover {
+          background: var(--primary-hover);
+        }
+      }
+      &.danger {
+        background: var(--danger);
+        &:hover {
+          background: var(--danger-hover);
+        }
+      }
+      &.info {
+        background: var(--info);
+        &:hover {
+          background: var(--info-hover);
+        }
+      }
+      &.warning {
+        background: var(--warning);
+        &:hover {
+          background: var(--warning-hover);
+        }
+      }
+      &.secondary {
+        background: var(--secondary);
+        &:hover {
+          background: var(--secondary-hover);
+        }
+      }
+    }
+  }
+}

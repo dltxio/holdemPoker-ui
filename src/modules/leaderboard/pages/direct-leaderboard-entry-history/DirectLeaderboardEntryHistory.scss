@@ -1,0 +1,19 @@
+.direct-leaderboard-entry-history-content {
+  &__filter {
+    margin-top: 20px;
+    &__buttons {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      .button-content {
+        margin: 0 2px;
+      }
+    }
+  }
+  &__table {
+    margin-top: 40px;
+  }
+  &__pagination {
+    margin-top: 20px;
+  }
+}

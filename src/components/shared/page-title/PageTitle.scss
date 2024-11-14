@@ -1,0 +1,53 @@
+.page-title-content {
+  &.light {
+    h3 {
+      padding: 0;
+      font-size: 26px;
+      letter-spacing: -1px;
+      line-height: 26px;
+      color: var(--black-text-2);
+      margin: 0 0 20px;
+      font-weight: 300;
+    }
+  }
+  &.bold {
+    h3 {
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    i {
+      margin-right: 3px;
+    }
+  }
+  &.primary {
+    h3,
+    i {
+      color: var(--primary);
+    }
+  }
+  &.danger {
+    h3,
+    i {
+      color: var(--danger);
+    }
+  }
+  &.info {
+    h3,
+    i {
+      color: var(--info);
+    }
+  }
+  &.warning {
+    h3,
+    i {
+      color: var(--warning);
+    }
+  }
+  &.secondary {
+    h3,
+    i {
+      color: var(--secondary);
+    }
+  }
+}

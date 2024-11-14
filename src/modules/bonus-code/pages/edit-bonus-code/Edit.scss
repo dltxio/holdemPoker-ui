@@ -1,0 +1,17 @@
+.create-bonus-code-content {
+  &__wrapper {
+    background: #fff;
+    border: 1px solid var(--info);
+
+    &.default {
+      padding-top: 15px;
+    }
+
+    &.secondary {
+      background: #fff;
+      border: 1px solid var(--info);
+      margin-top: -1px;
+    }
+  }
+
+}

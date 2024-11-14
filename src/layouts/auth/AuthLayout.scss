@@ -1,0 +1,33 @@
+.auth-layout {
+  background: #c5cbc7;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 68px;
+  &__wrapper {
+    background: #333;
+  }
+  &__content {
+    margin-left: 195px;
+    margin-top: 0;
+    min-height: 600px;
+    padding: 25px 20px 10px;
+    background: #eef1f5;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .auth-layout {
+    padding-top: 0;
+    .container {
+      margin: 0;
+      padding: 0;
+      max-width: 100%;
+    }
+    &__content {
+      margin: 0;
+      min-height: 280px;
+      padding: 20px 10px 10px;
+      overflow: hidden;
+    }
+  }
+}

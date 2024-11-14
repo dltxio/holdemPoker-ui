@@ -1,0 +1,21 @@
+.player-loyality-points-report-content {
+  .heading-content {
+    margin-bottom: 25px;
+  }
+  &__filter {
+    margin-bottom: 25px;
+    &__buttons {
+      display: flex;
+      align-items: center;
+      .button-content {
+        margin: 0 2px;
+      }
+    }
+  }
+  &__table {
+    margin-top: 30px;
+  }
+  &__pagination {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,27 @@
+.edit-player-content {
+  .checkbox-list-content {
+    margin: 10px 0 30px;
+  }
+  .form {
+    .form-item__checkbox {
+      margin-top: -20px;
+      margin-bottom: 20px;
+    }
+    #password_help {
+      .ant-form-item-explain-error {
+        margin-bottom: 0;
+      }
+    }
+    .form-buttons {
+      padding: 20px;
+      margin: 0;
+      background-color: #f5f5f5;
+      border-top: 1px solid #e7ecf1;
+      button {
+        &:first-child {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}

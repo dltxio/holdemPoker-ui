@@ -1,0 +1,45 @@
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 21px;
+
+    .col-lg-3 {
+        border: 1px solid #000;
+        text-align: end;
+        width: 264px;
+        border: none;
+
+        .dashboard-stat {
+            .details {
+                padding: 11px;
+                color: #fff;
+
+                .number {
+                    font-size: 25px;
+                }
+
+                .desc {
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .blue {
+            background-color: #33adff;
+        }
+
+        .red {
+            background-color: #ff4d4d;
+        }
+
+        .green {
+            background-color: #00cccc;
+        }
+
+        .purple {
+            background-color: purple;
+        }
+    }
+}

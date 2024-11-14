@@ -1,0 +1,4 @@
+export const GLOBAL_EVENTS = {
+  SHOW_ALERT: 'SHOW_ALERT',
+  MOBILE_MENU: 'MOBILE_MENU'
+}

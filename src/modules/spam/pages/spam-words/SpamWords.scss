@@ -1,0 +1,65 @@
+.spam-words-content {
+  background: #fff;
+  &__wrapper {
+    border-top: 1px solid #e7ecf1;
+    margin: 0 15px 15px 15px;
+    h3 {
+      font-size: 14px;
+      width: 70%;
+      border-bottom: 1px solid #e7ecf1;
+      padding: 8px 0;
+      margin: 0;
+    }
+  }
+  &__tags {
+    width: 70%;
+    min-height: 34px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    overflow: hidden;
+    word-wrap: break-word;
+    margin-top: 10px;
+    padding: 1px;
+    &.focus {
+      border-color: #66afe9;
+      box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+    }
+    input {
+      border: 0;
+      outline: 0;
+      margin: 2px;
+      padding: 0 0 0 5px;
+      float: left;
+      height: 26px;
+      font-size: 14px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      float: left;
+      width: 80px;
+      height: 26px;
+      &:focus {
+        box-shadow: none;
+      }
+      &::placeholder {
+        color: rgb(117, 117, 117);
+        font-weight: 500;
+      }
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      li {
+        float: left;
+      }
+    }
+  }
+  &__note {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    p {
+      font-weight: 500;
+      margin: 0;
+    }
+  }
+}

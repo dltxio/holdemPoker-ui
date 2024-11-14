@@ -1,0 +1,144 @@
+.personal-detail-content {
+    &__actions {
+        display: flex;
+        align-items: center;
+
+        &__datetime {
+            .ant-picker {
+                width: 240px;
+            }
+        }
+
+        &__btns {
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+
+            .button-content {
+                margin: 0 3px;
+            }
+        }
+    }
+
+    .personal-info-content {
+        margin-top: 25px;
+
+
+        &.secondary {
+
+            .personal-info-content__header,
+            .personal-info-content__footer {
+                background: var(--secondary) !important;
+            }
+
+            .personal-info-content__body {
+                border: 1px solid var(--secondary) !important;
+            }
+        }
+
+        &__header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 8px 10px;
+
+            &__left {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                i,
+                span {
+                    color: #fff;
+                }
+
+                i {
+                    font-size: 18px;
+                    margin-right: 4px;
+                }
+
+                span {
+                    font-size: 18px;
+                    // font-weight: 700;
+                }
+            }
+
+            &__right {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                svg {
+                    color: #fff;
+                    margin-left: 10px;
+                    cursor: pointer;
+
+                    &.expand {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+
+        &__body {
+            &.hidden {
+                display: none;
+            }
+
+            display: block;
+            background: #fff;
+            padding: 15px;
+
+            &__item {
+                display: flex;
+                margin-bottom: 15px;
+
+                &__label {
+                    width: 45%;
+                    text-align: right;
+                    padding: 0 15px;
+
+                    label {
+                        font-size: 14px;
+                        font-weight: 700;
+                    }
+                }
+
+                &__data {
+                    width: 55%;
+                    padding: 0 15px;
+
+                    p {
+                        margin: 0;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        &.full {
+            z-index: 99999;
+            margin: 0;
+            padding: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background: #fff;
+
+            .personal-info-content__body {
+                height: 100%;
+            }
+
+            .personal-info-content__footer {
+                height: 35px;
+                width: 100%;
+                position: fixed;
+                bottom: 0;
+            }
+        }
+    }
+}

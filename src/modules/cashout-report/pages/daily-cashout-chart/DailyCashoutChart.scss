@@ -1,0 +1,48 @@
+.daily-cashout-content {
+    .heading-content {
+        padding-left: 10px;
+
+        h3 {
+            text-transform: uppercase !important;
+        }
+    }
+
+    &__wrapper {
+        background: #fff;
+        border: 1px solid var(--info);
+        padding: 15px;
+        margin-top: -1px;
+
+        form {
+            .form-content {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                
+                .form-buttons {
+                    button {
+                        &:first-child {
+                            margin-right: 5px;
+                        }
+                    }
+                }
+
+                .chart-message {
+                    font-weight: 700;
+                    font-size: 14px;
+                    color: #333;
+                }
+
+                .ant-form-item {
+                    width: 100%;
+
+                    .ant-picker {
+                        width: 100%;
+                    }
+                }
+            }
+
+        }
+    }
+}

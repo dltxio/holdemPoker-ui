@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Intro";
+    src: url("Intro.otf") format("opentype"),
+        url("Intro.woff") format("woff");
+}
+@font-face {
+    font-family: "Museo Sans";
+    src: url("MuseoSans.otf") format("opentype"),
+        url("MuseoSans.woff") format("woff");
+}
+@font-face {
+    font-family: "MrsSaintDelafield";
+    src: url("MrsSaintDelafield.ttf") format("truetype"),
+        url("MrsSaintDelafield.woff") format("woff");
+}

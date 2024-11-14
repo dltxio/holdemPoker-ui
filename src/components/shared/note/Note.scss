@@ -1,0 +1,35 @@
+.alert {
+  background: #fff;
+  border-radius: 0;
+  border: none;
+  border-left: 5px solid;
+  h3 {
+    font-size: 24px;
+    font-weight: 300;
+  }
+  &.primary {
+    border-left-color: var(--primary);
+    border-width: 5px;
+    background: #fff;
+  }
+  &.danger {
+    border-left-color: var(--danger);
+    border-width: 5px;
+    background: #fff;
+  }
+  &.info {
+    border-left-color: var(--info);
+    border-width: 5px;
+    background: #fff;
+  }
+  &.warning {
+    border-left-color: var(--warning);
+    border-width: 5px;
+    background: #fff;
+  }
+  &.secondary {
+    border-left-color: var(--secondary);
+    border-width: 5px;
+    background: #fff;
+  }
+}

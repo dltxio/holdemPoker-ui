@@ -1,0 +1,34 @@
+$spacing: .5rem;
+.filter-form {
+  form {
+    .fields {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+
+      margin-top: -$spacing;
+      margin-bottom: -$spacing;
+      margin-left: -$spacing;
+      margin-right: -$spacing;
+      .field {
+        // flex: 1;
+        max-width: 23.795%;
+        width: 100%;
+        margin: $spacing $spacing;
+        .ant-form-item {
+          margin-bottom: auto;
+        }
+        &:first-child {
+          // margin-left: 0;
+        }
+      }
+    }
+  }
+  &__btns {
+    display: flex;
+    margin: $spacing $spacing;
+    button {
+      margin-right: .5rem;
+    }
+  }
+}

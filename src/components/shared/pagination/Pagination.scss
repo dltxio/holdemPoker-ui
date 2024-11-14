@@ -1,0 +1,27 @@
+.pagination-content {
+  ul {
+    justify-content: flex-start;
+    li {
+      padding: 6px 12px;
+      background: #fff;
+      border: 1px solid #ddd;
+      margin: 0;
+      margin-left: -1px;
+      cursor: pointer;
+      &.previous {
+        background: none;
+        border: none;
+      }
+      &.next {
+        background: none;
+        border: none;
+      }
+      &.active {
+        color: #fff;
+        background-color: #337ab7;
+        border-color: #337ab7;
+        cursor: default;
+      }
+    }
+  }
+}

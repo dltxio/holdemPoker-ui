@@ -1,0 +1,59 @@
+form {
+    .form-item {
+        padding-top: 20px;
+        &__multiple {
+            button {
+                padding: 7px 12px;
+                margin-left: -1px;
+            }
+        }
+
+        .ant-input-number {
+            width: 100%;
+        }
+    }
+
+    .form-buttons {
+        padding: 20px 0;
+        border-top: 1px solid #e7ecf1;
+        display: flex;
+        justify-content: center;
+        margin-left: -168px;
+
+
+        .default {
+            border: 1px solid #000;
+        }
+
+        .green {
+            border: 1px solid #000;
+        }
+
+        button {
+            &:first-child {
+                border: 1px solid #000;
+                margin-right: 15px;
+            }
+        }
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-bottom: 20px;
+        align-items: center;
+
+        .control-label {
+            text-align: right;
+            font-weight: 400;
+            font-size: 15px;
+        }
+    }
+
+    .form-actions {
+        .row {
+
+        }
+    }
+}

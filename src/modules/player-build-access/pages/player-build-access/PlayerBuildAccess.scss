@@ -1,0 +1,13 @@
+.player-build-access-content {
+  &__filter {
+    margin-top: 20px;
+    &__buttons {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      .button-content {
+        margin: 0 2px;
+      }
+    }
+  }
+}
